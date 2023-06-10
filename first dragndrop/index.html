@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="stylesheet" href="plugins/bootstrap-4.5.3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="plugins/css/jquery.toast.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Project</title>
+</head>
+
+<body>
+  <div class="h-100" id="app">
+    <div class="app-content content">
+      <div class="card card-bordered mb-0 application-card">
+        <div class="card-body h-100">
+          <div class="application__section">
+            <h4 class="application___title">Car Rental Application</h4>
+            <button class="btn-instructions" id="btnOpenInstructionSection">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: #6e6b7b;">
+                <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+              </svg>
+            </button>
+            <div class="main____application">
+              <div class="dropable____container">
+                <div class="dropable____items__wrapper">
+                  <div id="n" class="dropable__item left__arrow card card-bordered parent"></div>
+                  <div id="n1" class="dropable__item left__arrow card card-bordered parent"></div>
+                  <div id="n2" class="dropable__item down_left_arrow card card-bordered parent"></div>
+                  <div id="n3" class="dropable__item card card-bordered parent card__n3"></div>
+                </div>
+              </div>
+              <div class="dragable____container">
+                <div class="dragable____items__wrapper">
+                  <div class="dragable__item card card-bordered child" id="p1">
+                    Front Office
+                  </div>
+                  <div class="dragable__item card card-bordered child" id="p2">
+                    Vehicle
+                  </div>
+                  <div class="dragable__item card card-bordered child" id="p3">
+                    Destination
+                  </div>
+                  <div class="dragable__item card card-bordered child" id="p4">
+                    Customer
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button data-ripplet class="btn btn-primary btn-check" onclick="btn()">Refer</button>
+          </div>
+          <div class="instruction___section" id="instructionSection">
+            <button class="btnCloseInstructionSection" id="btnCloseInstructionSection">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: #6e6b7b;">
+                <path
+                  d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                </path>
+              </svg>
+            </button>
+            <h5 class="Activity__title">Activity 1</h5>
+            <div class="instrunctions pt-5">
+              <h5>Instructions</h5>
+              <ol type="a">
+                <li class="ins">Follow the instructions correctly.</li>
+                <li class="ins">Kindly complete the whole diagram.</li>
+                <li class="ins">
+                  If wrong, refer the study materials<br />and try again.
+                </li>
+              </ol>
+            </div>
+            <p id="quz" class="quzz mb-0">
+              <a data-ripplet="" href="./project02/index.html" class="btn btn-primary btn-has-icon" target="_blank"
+                onclick="showw()">
+                <span class="align-middle">Next</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/jquery/jquery-ui.min.js"></script>
+  <script src="plugins/popper/popper.js"></script>
+  <script src="plugins/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+  <script src="plugins/js/ripplet.min.js"></script>
+  <script src="plugins/js/jquery.toast.min.js"></script>
+  <script src="theme.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

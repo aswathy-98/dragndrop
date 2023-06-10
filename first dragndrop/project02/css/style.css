@@ -1,0 +1,173 @@
+*,
+:after,
+:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(34, 41, 47, 0);
+}
+
+html {
+	font-size: 14px;
+	letter-spacing: .01rem;
+	scroll-behavior: smooth;
+}
+
+html,
+html body {
+	height: 100%;
+    padding: 0;
+    margin: 0;
+	width: 100%;
+}
+/* 
+.h4{
+text-align:right ;
+} */
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+
+	transition: background 500ms, color 0.5ms ease-in-out;
+	-webkit-transition: background 500ms, color 0.5ms ease-in-out;
+	-moz-transition: background 500ms, color 0.5ms ease-in-out;
+	-ms-transition: background 500ms, color 0.5ms ease-in-out;
+	-o-transition: background 500ms, color 0.5ms ease-in-out; 
+}
+
+body {
+	background: #868686;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.45;
+}
+.app-content {
+    position: relative;
+    min-height: 100%;
+    padding: 100px;
+}
+.ER-diagram {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+.ER-diagram-top-header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 1rem;
+	background: #ACB3B9;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.ER-diagram-body {
+    position: relative;
+    background: #F2F2F2;
+    height: 100%;
+	width: 100%;
+}
+.col-elements {
+    background: #D4D7DC;
+	padding-right: 10px;
+
+}
+.elements {
+    position: relative;
+    padding: 0px;
+    list-style: none;
+    padding-bottom: 5rem;
+	
+	
+}
+.elements li {
+    list-style-type: none;
+    margin: 10px ;
+}
+
+
+#card1 {
+    margin-bottom: 1rem;
+	margin-right: 20px;
+	margin-left: 60px;
+	border: 1px solid #000000;	
+}
+#card2 {
+    margin-bottom: 1rem;
+	margin-right: 20px;
+	margin-left: 60px;
+	border: 1px solid #000000;	
+}
+#card3 {
+    margin-bottom: 1rem;
+	margin-right: 20px;
+	margin-left: 60px;
+	border: 1px solid #000000;	
+}
+#card4 {
+    margin-bottom: 1rem;
+	margin-right: 20px;
+	margin-left: 60px;
+	margin-top: 50px;
+    border: 1px solid #000000;	
+}
+
+
+.ER-diagram-footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    background: #ACB3B9;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+
+/* /////////////////////////////////////////// */
+
+
+
+@media(max-width: 991px) {
+    .app-content {
+        padding: 32px;
+    }
+}
